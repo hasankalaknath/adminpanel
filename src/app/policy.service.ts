@@ -9,6 +9,7 @@ export class PolicyService {
 
   constructor(private db: AngularFireDatabase) { }
 
+
   public addDangerLocation(lat: number, long: number, rules: string) {
     console.log("error" + lat + long + rules);
     const chatName = {
